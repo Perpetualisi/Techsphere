@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Checkouts from "./components/Checkouts/Checkouts";
+import Checkouts from "./Components/Checkouts/Checkouts.jsx";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import Categories from "./components/Categories/Categories";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer"; 
+import Footer from "./Components/Footer/Footer.jsx";
 
 const App = () => {
   const [cart, setCart] = useState([]);
@@ -62,8 +63,8 @@ const App = () => {
         <Route path="/checkout" element={<Checkouts cartItems={cart} />} />
       </Routes>
 
-      <Footer /> 
-    </Router>
+      <Footer />
+    </Router> 
   );
 };
 
