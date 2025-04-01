@@ -3,10 +3,10 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Checkouts from "./Components/Checkouts/Checkouts.jsx";
 import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Products from "./components/Products/Products";
-import Categories from "./components/Categories/Categories";
-import Contact from "./components/Contact/Contact";
+import Hero from "./Components/Hero/Hero";
+import Products from "./Components/Products/Products";
+import Categories from "./Components/Categories/Categories";
+import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer.jsx";
 
 const App = () => {
